@@ -3,8 +3,8 @@
 
 ## Junior Frontend Developer
 
-### Contacts
-| | |
+
+|Contacts | |
 |-------------------------------|-------------------------------|
 | ![Discord](https://api.iconify.design/simple-icons:telegram.svg) [@starkoans](https://t.me/starkoans)   | ![Discord](https://api.iconify.design/simple-icons:discord.svg) strknt    |
 |![Discord](https://api.iconify.design/simple-icons:github.svg) [Github](https://github.com/Starkoans)|![Mail](https://api.iconify.design/fa-solid:envelope.svg) starkoans@gmail.com|
