@@ -3,12 +3,21 @@
 
 ## Junior Frontend Developer
 
+### Contacts 
 
-|Contacts | |
-|-------------------------------|-------------------------------|
-| ![Discord](https://api.iconify.design/simple-icons:telegram.svg) [@starkoans](https://t.me/starkoans)   | ![Discord](https://api.iconify.design/simple-icons:discord.svg) strknt    |
-|![Discord](https://api.iconify.design/simple-icons:github.svg) [Github](https://github.com/Starkoans)|![Mail](https://api.iconify.design/fa-solid:envelope.svg) starkoans@gmail.com|
-|![LeetCode](https://api.iconify.design/simple-icons:leetcode.svg) [Leetcode](https://leetcode.com/u/starkoans/)|![Codewars](https://api.iconify.design/simple-icons:codewars.svg) [Codewars](https://www.codewars.com/users/rsschool_49c1b92e77a7927b)|
+![Discord](https://api.iconify.design/simple-icons:telegram.svg) [@starkoans](https://t.me/starkoans)
+
+![Discord](https://api.iconify.design/simple-icons:discord.svg) strknt
+
+![Github](https://api.iconify.design/simple-icons:github.svg)
+ [Github](https://github.com/Starkoans)
+
+![Mail](https://api.iconify.design/fa-solid:envelope.svg) starkoans@gmail.com
+
+![LeetCode](https://api.iconify.design/simple-icons:leetcode.svg) 
+[Leetcode](https://leetcode.com/u/starkoans/)
+
+![Codewars](https://api.iconify.design/simple-icons:codewars.svg) [Codewars](https://www.codewars.com/users/rsschool_49c1b92e77a7927b)
 
 ## About me
 
