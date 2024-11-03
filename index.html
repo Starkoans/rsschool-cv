@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link
+			as="font"
+			type="font/woff2"
+			crossorigin="anonymous"
+			rel="preload"
+			href="https://fonts.googleapis.com">
+		<link
+			as="font"
+			type="font/woff2"
+			crossorigin="anonymous"
+			rel="preload"
+			href="https://fonts.gstatic.com">
+		<link
+			as="font"
+			href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+			rel="preload">
+		<link rel="stylesheet" as="stylesheet" href="./style.css">
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<img
+				class="avatar"
+				src="./avatar.png"
+				alt="Profile picture">
+			<div class="info">
+				<h1>Anastasia Starkova</h1>
+				<h2 style="font-size: larger;">Junior Frontend Developer</h2>
+				<h2 id="contacts">Contacts</h2>
+				<ul>
+					<li class="list">
+						<img
+							class="icon"
+							src="./assets/telegram-svgrepo-com.svg"
+							alt="Telegram">
+						<a href="https://t.me/starkoans">@starkoans</a>
+					</li>
+					<li class="list">
+						<img
+							class="icon"
+							src="./assets/github-142-svgrepo-com.svg"
+							alt="Github">
+						<a href="https://github.com/Starkoans">Starkoans</a>
+					</li>
+					<li class="list">
+						<img
+							class="icon"
+							src="./assets/mail-15-svgrepo-com.svg"
+							alt="Mail">
+						<a href="mailto:starkoans@gmail.com">starkoans@gmail.com</a>
+					</li>
+					<li class="list">
+						<img
+							class="icon"
+							src="./assets/leetcode-svgrepo-com.svg"
+							alt="LeetCode">
+						<a href="https://leetcode.com/u/starkoans/">Starkoans</a>
+					</li>
+					</ul>
+			</div>
+		</header>
+		<main>
+			<section class="card-container">
+				<div class="card">
+					<h2>About me</h2>
+					<p>
+						Hi, my name is Anastasia, I am a junior frontend developer, I would be
+						glad to be a part of a team where I will continue to grow in this
+						direction. In addition to interface development, I'm also interested in
+						<a href="https://www.behance.net/acab7e75">designing</a> them.
+					</p>
+				</div>
+				<div class="card">
+					<h2 id="skills">Skills</h2>
+					<ul>
+						<li class="list">HTML</li>
+						<li class="list">CSS/SASS</li>
+						<li class="list">Javascript</li>
+						<li class="list">Typescript</li>
+						<li class="list">React</li>
+						<li class="list">Redux Toolkit</li>
+						<li class="list">Bootstrap</li>
+						<li class="list">Tailwind</li>
+						<li class="list">Git</li>
+					</ul>
+				</div>
+			</section>
+			
+			<h2 id="code-example">Code example</h2>
+			<p>
+				My solution to the
+				<a
+					href="https://leetcode.com/problems/promise-time-limit/description/?envType=study-plan-v2&envId=30-days-of-javascript">
+					Leetcode task:
+				</a>
+			</p>
+			<pre>
+		<code>
+/**
+* @param {Function} fn
+* @param {number} t
+* @return {Function}
+*/
+var timeLimit = function (fn, t) {
+
+    return async function (...args) {
+        return new Promise((resolve, reject) =&gt; {
+            let timeoutId;
+            fn(...args)
+                .then(res =&gt; { resolve(res) })
+                .catch(err =&gt; reject(err))
+                .finally(() =&gt; { clearTimeout(timeoutId) })
+            timeoutId = setTimeout(() =&gt; {
+                clearTimeout(timeoutId)
+                reject('Time Limit Exceeded');
+            }, t)
+        })
+
+    }
+};
+
+/**
+* const limited = timeLimit((t) =&gt; new Promise(res =&gt; setTimeout(res, t)), 100);
+* limited(150).catch(console.log) // "Time Limit Exceeded" at t=100ms
+*/
+		</code>
+</pre>
+			<h2 id="expiriense">Expiriense</h2>
+			<section class="card-container">
+				<div class="card">
+					<h3>Cat business (Training pet project)</h3>
+					<p>
+						Demo of a quest game about a boss cat. At the moment the basic
+						mechanics are implemented - moving around the level and mini-games.
+					</p>
+					<p>Stack: React, Typescript, Tailwind.</p>
+					<ul>
+						<li class="list">
+							<a
+								href="https://drive.google.com/file/d/1P1kRV4cWaxyePZEHqFKrJ7Zk3FaMZmKC/view?usp=drivesdk">
+								Demo video
+							</a>
+						</li>
+						<li class="list">
+							<a href="https://cat-business-avw64rk0b-starkoans.vercel.app"
+								>Deploy</a
+							>
+						</li>
+						<li class="list"
+							><a href="https://github.com/Starkoans/cat-business">Repo</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card">
+					<h3>FroggyChat (Training pet project)</h3>
+					<p>Developed realtime chat with nickname search.</p>
+					<p>
+						Stack: React, Bootstrap и SCSS, Redux Toolkit, Firebase
+						(Authentication, Realtime Database, Firestore), Vite.
+					</p>
+					<ul>
+						<li class="list">
+							<a
+								href="https://drive.google.com/file/d/1RVPCNAaZJWYGMiVQAFTVzPjTBIa4xSuG/view?usp=drivesdk">
+								Demo video
+							</a>
+						</li>
+						<li class="list">
+							<a href="https://froggy-chat-8msqc6sqc-starkoans.vercel.app"
+								>Deploy</a
+							>
+						</li>
+						<li class="list"
+							><a href="https://github.com/Starkoans/chatApp">Repo</a></li
+						>
+					</ul>
+				</div>
+				<div class="card">
+					<h3>SHIFT Delivery (Training pet project)</h3>
+					<p>
+						Developed a web application to calculate parcel delivery, place
+						orders and view order history. Work within the framework of the
+						Shift Intensive from
+						<a href="https://www.cft.ru/">Financial Technologies Center</a>.
+					</p>
+					<p>
+						Stack: React, Tailwind, React-hook-form, Redux Toolkit (Thunk),
+						Vite, Git, Swagger.
+					</p>
+					<ul>
+						<li class="list">
+							<a
+								href="https://drive.google.com/file/d/1YV0IdBHDPNBXmiZQfqFpVJwf-9Vvs18R/view?usp=drivesdk">
+								Demo video
+							</a>
+						</li>
+						<li class="list">
+							<a
+								href="https://shift-delivery-summer-2023-30v1ubwxw-starkoans.vercel.app">
+								Deploy
+							</a>
+						</li>
+						<li class="list">
+							<a href="https://github.com/Starkoans/shift-summer-2023-task"
+								>Repo
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card">
+					<h3>P2Pizza (Training pet project)</h3>
+					<p>Developed the client side of the website for ordering pizza.</p>
+					<p>Stack: React, Redux Toolkit, React-hook-form, Vite.</p>
+					<ul>
+						<li class="list">
+							<a href="https://pizza-qj14hjkx5-starkoans.vercel.app">Deploy</a>
+						</li>
+						<li class="list">
+							<a href="https://github.com/Starkoans/pizza">Repo</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card">
+					<h3>School 21, Novosibirsk</h3>
+					<h4>Manual QA Engineer</h4>
+					<p>
+						I was involved in manual testing of Sber's School 21 educational
+						platform and environment, worked with git, wrote bash scripts, small
+						C programs, and bug reports.
+					</p>
+				</div>
+			</section>
+
+			<h2 id="education">Education</h2>
+			<ul>
+				<li class="list">
+					Siberian State University of Telecommunications and Informatics,
+					Bachelor of Applied Informatics (2020-2024) Russia, Novosibirsk
+				</li>
+				<li class="list" style="display: inline-block">
+					<a href="https://team.cft.ru/start/intensive">
+						Summer Intensive on "Frontend Development" at the School of
+						Information and Financial Technologies</a
+					>, Financial Technologies Center (2023)
+				</li>
+			</ul>
+			<h2>Languages</h2>
+			<ul>
+				<li class="list">Russian (Native)</li>
+				<li class="list">English (B1, Intermediate)</li>
+			</ul>
+		</main>
+		<footer>
+			<nav>
+				<ul
+					class="footer">
+					<li class="footer-list">
+						<a href="https://rs.school/courses/javascript-ru">
+							<img
+								height="30"
+								alt="RSSchool"
+								src="https://app.rs.school/static/images/logo-rsschool3.png">
+						</a>
+					</li>
+					<li>2023</li>
+					<li class="footer-list">
+						<img
+							class="icon"
+							src="./assets/github-142-svgrepo-com.svg"
+							alt="Github">
+						<a href="https://github.com/Starkoans">Starkoans</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>
