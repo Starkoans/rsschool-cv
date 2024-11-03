@@ -6,64 +6,45 @@
         type="font/woff2"
         crossorigin="anonymous"
         rel="preload"
-        href="https://fonts.googleapis.com"
-    />
+        href="https://fonts.googleapis.com">
     <link
         as="font"
         type="font/woff2"
         crossorigin="anonymous"
         rel="preload"
-        href="https://fonts.gstatic.com"
-    />
+        href="https://fonts.gstatic.com">
     <link
         as="font"
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
-        rel="preload"
-    />
-    <link rel="stylesheet" href="./style.css" />
+        rel="preload">
+    <link rel="stylesheet" href="./style.css">
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <img class="avatar" src="./avatar.png" alt="Profile picture" />
+        <img class="avatar" src="./avatar.png" alt="Profile picture">
         <div class="info">
             <h1>Anastasia Starkova</h1>
             <h2 class="role-title">Junior Frontend Developer</h2>
             <h2 id="contacts">Contacts</h2>
             <ul>
                 <li class="list">
-                    <img
-                        class="icon"
-                        src="./assets/telegram-svgrepo-com.svg"
-                        alt="Telegram"
-                    />
+                    <img class="icon" src="./assets/telegram-svgrepo-com.svg" alt="Telegram">
                     <a href="https://t.me/starkoans">@starkoans</a>
                 </li>
                 <li class="list">
-                    <img
-                        class="icon"
-                        src="./assets/github-142-svgrepo-com.svg"
-                        alt="Github"
-                    />
+                    <img class="icon" src="./assets/github-142-svgrepo-com.svg" alt="Github">
                     <a href="https://github.com/Starkoans">Starkoans</a>
                 </li>
                 <li class="list">
-                    <img
-                        class="icon"
-                        src="./assets/mail-15-svgrepo-com.svg"
-                        alt="Mail"
-                    />
+                    <img class="icon" src="./assets/mail-15-svgrepo-com.svg" alt="Mail">
                     <a href="mailto:starkoans@gmail.com">starkoans@gmail.com</a>
                 </li>
                 <li class="list">
-                    <img
-                        class="icon"
-                        src="./assets/leetcode-svgrepo-com.svg"
-                        alt="LeetCode"
-                    />
+                    <img class="icon" src="./assets/leetcode-svgrepo-com.svg" alt="LeetCode">
                     <a href="https://leetcode.com/u/starkoans/">Starkoans</a>
                 </li>
             </ul>
@@ -77,8 +58,7 @@
                     Hi, my name is Anastasia, I am a junior frontend developer, I would
                     be glad to be a part of a team where I will continue to grow in this
                     direction. In addition to interface development, I'm also interested
-                    in
-                    <a href="https://www.behance.net/acab7e75">designing</a> them.
+                    in <a href="https://www.behance.net/acab7e75">designing</a> them.
                 </p>
             </div>
             <div class="card">
@@ -100,8 +80,7 @@
         <h2 id="code-example">Code example</h2>
         <p>
             My solution to the
-            <a
-                href="https://leetcode.com/problems/promise-time-limit/description/?envType=study-plan-v2&envId=30-days-of-javascript">
+            <a href="https://leetcode.com/problems/promise-time-limit/description/?envType=study-plan-v2&envId=30-days-of-javascript">
                 Leetcode task:
             </a>
         </p>
@@ -114,13 +93,13 @@
 var timeLimit = function (fn, t) {
 
     return async function (...args) {
-        return new Promise((resolve, reject) => {
+        return new Promise((resolve, reject) =&gt; {
             let timeoutId;
             fn(...args)
-                .then(res => { resolve(res) })
-                .catch(err => reject(err))
-                .finally(() => { clearTimeout(timeoutId) })
-            timeoutId = setTimeout(() => {
+                .then(res =&gt; { resolve(res) })
+                .catch(err =&gt; reject(err))
+                .finally(() =&gt; { clearTimeout(timeoutId) })
+            timeoutId = setTimeout(() =&gt; {
                 clearTimeout(timeoutId)
                 reject('Time Limit Exceeded');
             }, t)
@@ -130,7 +109,7 @@ var timeLimit = function (fn, t) {
 };
 
 /**
-* const limited = timeLimit((t) => new Promise(res => setTimeout(res, t)), 100);
+* const limited = timeLimit((t) =&gt; new Promise(res =&gt; setTimeout(res, t)), 100);
 * limited(150).catch(console.log) // "Time Limit Exceeded" at t=100ms
 */
         </code></pre>
@@ -148,8 +127,7 @@ var timeLimit = function (fn, t) {
             <li class="list">
                 <a href="https://team.cft.ru/start/intensive">
                     Summer Intensive on "Frontend Development" at the School of
-                    Information and Financial Technologies</a
-                >, Financial Technologies Center (2023)
+                    Information and Financial Technologies</a>, Financial Technologies Center (2023)
             </li>
         </ul>
         <h2>Languages</h2>
@@ -163,20 +141,12 @@ var timeLimit = function (fn, t) {
             <ul class="footer">
                 <li class="footer-list">
                     <a href="https://rs.school/courses/javascript-ru">
-                        <img
-                            height="30"
-                            alt="RSSchool"
-                            src="https://app.rs.school/static/images/logo-rsschool3.png"
-                        />
+                        <img height="30" alt="RSSchool" src="https://app.rs.school/static/images/logo-rsschool3.png">
                     </a>
                 </li>
                 <li>2023</li>
                 <li class="footer-list">
-                    <img
-                        class="icon"
-                        src="./assets/github-142-svgrepo-com.svg"
-                        alt="Github"
-                    />
+                    <img class="icon" src="./assets/github-142-svgrepo-com.svg" alt="Github">
                     <a href="https://github.com/Starkoans">Starkoans</a>
                 </li>
             </ul>
