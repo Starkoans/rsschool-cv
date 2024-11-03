@@ -1,22 +1,18 @@
+![Discord](./avatar.png)
 # Anastasia Starkova
 
 ## Junior Frontend Developer
 
 ### Contacts
-
-![Discord](https://api.iconify.design/simple-icons:telegram.svg) [@starkoans](https://t.me/starkoans)
-
-![Discord](https://api.iconify.design/simple-icons:discord.svg) strknt
-
-![Discord](https://api.iconify.design/simple-icons:github.svg) [Github](https://github.com/Starkoans)
-
-![Mail](https://api.iconify.design/fa-solid:envelope.svg) starkoans@gmail.com
-
-![LeetCode](https://api.iconify.design/simple-icons:leetcode.svg) [Leetcode](https://leetcode.com/u/starkoans/)
+| | |
+|-------------------------------|-------------------------------|
+| ![Discord](https://api.iconify.design/simple-icons:telegram.svg) [@starkoans](https://t.me/starkoans)   | ![Discord](https://api.iconify.design/simple-icons:discord.svg) strknt    |
+|![Discord](https://api.iconify.design/simple-icons:github.svg) [Github](https://github.com/Starkoans)|![Mail](https://api.iconify.design/fa-solid:envelope.svg) starkoans@gmail.com|
+|![LeetCode](https://api.iconify.design/simple-icons:leetcode.svg) [Leetcode](https://leetcode.com/u/starkoans/)|![Codewars](https://api.iconify.design/simple-icons:codewars.svg) [Codewars](https://www.codewars.com/users/rsschool_49c1b92e77a7927b)|
 
 ## About me
 
-Hi, my name is Anastasia, I am a beginner frontend developer, I would be glad to be a part of a team where I will continue to grow in this direction.
+Hi, my name is Anastasia, I am a junior frontend developer, I would be glad to be a part of a team where I will continue to grow in this direction.
 
 In addition to interface development, I'm also interested in [designing](https://www.behance.net/acab7e75) them.
 
@@ -73,9 +69,15 @@ At the moment the basic mechanics are implemented - moving around the level and 
 
 ### FroggyChat (Training pet project)
 
-Developed realtime chat with nickname search.
+Developed a realtime chat with nickname search.
 
-> Stak: React, Bootstrap и SCSS, Redux Toolkit, Firebase (Authentication, Realtime Database, Firestore), Vite.
+What I did in the project:
+ - Designed an adaptive interface on Bootstrap and preprocessors for different screen resolutions.
+ - Used Redux Toolkit to manage state with frequently changing data.
+ - Integrated Firebase API for real-time data processing.
+ - Configured Firebase Authentication for Google account login.
+
+> Stack: React, Bootstrap и SCSS, Redux Toolkit, Firebase (Authentication, Realtime Database, Firestore), Vite.
 
 - [Demo video](https://drive.google.com/file/d/1RVPCNAaZJWYGMiVQAFTVzPjTBIa4xSuG/view?usp=drivesdk)
 - [Deploy](https://froggy-chat-8msqc6sqc-starkoans.vercel.app)
@@ -88,9 +90,7 @@ Developed a web application to calculate parcel delivery, place orders and view 
 > Stack: React, Tailwind, React-hook-form, Redux Toolkit (Thunk), Vite, Git, Swagger.
 
 - [Demo video](https://drive.google.com/file/d/1YV0IdBHDPNBXmiZQfqFpVJwf-9Vvs18R/view?usp=drivesdk)
-
 - [Deploy](https://shift-delivery-summer-2023-30v1ubwxw-starkoans.vercel.app)
-
 - [Repo](https://github.com/Starkoans/shift-summer-2023-task)
 
 ### P2Pizza (Training pet project)
