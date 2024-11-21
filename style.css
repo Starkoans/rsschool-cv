@@ -1,0 +1,39 @@
+body {
+	width: 80%;
+	margin: auto;
+	padding-top: 30px;
+	color: rgb(35, 30, 54);
+	font-family: 'Titillium Web', sans-serif;
+	background-color: rgb(252, 250, 247);
+	font-size: 1em;
+}
+.avatar {
+	max-width: 300px;
+	width: 70%;
+	height: auto;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	align-items: center;
+	margin-bottom: 30px;
+}
+a {
+	color: rgb(57, 110, 255);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+
+
+
+
